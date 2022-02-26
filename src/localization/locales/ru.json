@@ -1,0 +1,20 @@
+{
+  "apply": "Применить",
+  "back": "Назад",
+  "cancel": "Отмена",
+  "clear": "Очистить",
+  "dark": "Тёмная",
+  "english": "English (Английский)",
+  "generate": "Генерировать",
+  "german": "German (Немецкий)",
+  "history": "История",
+  "language": "Язык",
+  "light": "Светлая",
+  "russian": "Russian (Русский)",
+  "openInNewTab": "Открыть в новой вкладке",
+  "qrCodeGenerator": "Генератор QR кодов",
+  "save": "Сохранить",
+  "settings": "Настройки",
+  "theme": "Цветовая схема",
+  "typeHere": "Текст тут..."
+}

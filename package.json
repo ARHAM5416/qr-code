@@ -1,0 +1,60 @@
+{
+  "name": "qrgen",
+  "version": "1.0.0",
+  "description": "Web QR Core Generator",
+  "private": true,
+  "main": "./src/index.js",
+  "scripts": {
+    "build": "webpack --mode production --config webpack.config.js",
+    "build:dev": "webpack --mode development --config webpack.config.js",
+    "start": "webpack-dev-server --mode production --config webpack.config.js",
+    "start:dev": "webpack-dev-server --mode development --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --mode development --config webpack.config.js --watch"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.4",
+    "autoprefixer": "^9.8.5",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.6.0",
+    "cssnano-webpack-plugin": "^1.0.3",
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "extract-loader": "^5.1.0",
+    "file-loader": "^6.0.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "postcss": "^7.0.36",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "postcss-scss": "^2.1.1",
+    "sass": "^1.26.10",
+    "sass-loader": "^9.0.2",
+    "style-loader": "^1.2.1",
+    "terser-webpack-plugin": "^3.0.6",
+    "vue-loader": "^15.9.3",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "chota": "^0.8.0",
+    "core-js": "^3.6.5",
+    "downloadjs": "^1.4.7",
+    "fontawesome": "npm:@fortawesome/fontawesome-free@^5.13.1",
+    "i18next": "^19.5.3",
+    "i18next-browser-languagedetector": "^5.0.0",
+    "qrcode": "^1.4.4",
+    "vue": "^2.6.11",
+    "vue-i18next": "npm:@panter/vue-i18next@^0.15.2"
+  },
+  "browserslist": [
+    "defaults"
+  ]
+}
